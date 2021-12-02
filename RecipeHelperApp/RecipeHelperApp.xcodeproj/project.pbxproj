@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E829519D2758F6CD00B34A70 /* RecipeHelperAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829519C2758F6CD00B34A70 /* RecipeHelperAppApp.swift */; };
-		E829519F2758F6CD00B34A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E829519E2758F6CD00B34A70 /* ContentView.swift */; };
-		E82951A12758F6D000B34A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82951A02758F6D000B34A70 /* Assets.xcassets */; };
-		E82951A42758F6D000B34A70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82951A32758F6D000B34A70 /* Preview Assets.xcassets */; };
 		E82951AF2758F6D000B34A70 /* RecipeHelperAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82951AE2758F6D000B34A70 /* RecipeHelperAppTests.swift */; };
 		E82951BA2758F6D100B34A70 /* RecipeHelperAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82951B92758F6D100B34A70 /* RecipeHelperAppUITests.swift */; };
+		E8A9ED9027594069002E8768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A9ED8A27594069002E8768 /* Assets.xcassets */; };
+		E8A9ED9127594069002E8768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9ED8B27594069002E8768 /* ViewController.swift */; };
+		E8A9ED9227594069002E8768 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A9ED8C27594069002E8768 /* Info.plist */; };
+		E8A9ED9327594069002E8768 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E8A9ED8D27594069002E8768 /* Base.lproj */; };
+		E8A9ED9427594069002E8768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9ED8E27594069002E8768 /* SceneDelegate.swift */; };
+		E8A9ED9527594069002E8768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9ED8F27594069002E8768 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +36,19 @@
 
 /* Begin PBXFileReference section */
 		E82951992758F6CD00B34A70 /* RecipeHelperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeHelperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E829519C2758F6CD00B34A70 /* RecipeHelperAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelperAppApp.swift; sourceTree = "<group>"; };
-		E829519E2758F6CD00B34A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E82951A02758F6D000B34A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E82951A32758F6D000B34A70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E82951A52758F6D000B34A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E82951AA2758F6D000B34A70 /* RecipeHelperAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeHelperAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82951AE2758F6D000B34A70 /* RecipeHelperAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelperAppTests.swift; sourceTree = "<group>"; };
 		E82951B02758F6D000B34A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E82951B52758F6D100B34A70 /* RecipeHelperAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeHelperAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82951B92758F6D100B34A70 /* RecipeHelperAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelperAppUITests.swift; sourceTree = "<group>"; };
 		E82951BB2758F6D100B34A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A9ED8927594068002E8768 /* RecipeHelperApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipeHelperApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8A9ED8A27594069002E8768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RecipeHelperApp/Assets.xcassets; sourceTree = "<group>"; };
+		E8A9ED8B27594069002E8768 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = RecipeHelperApp/ViewController.swift; sourceTree = "<group>"; };
+		E8A9ED8C27594069002E8768 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RecipeHelperApp/Info.plist; sourceTree = "<group>"; };
+		E8A9ED8D27594069002E8768 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = RecipeHelperApp/Base.lproj; sourceTree = "<group>"; };
+		E8A9ED8E27594069002E8768 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = RecipeHelperApp/SceneDelegate.swift; sourceTree = "<group>"; };
+		E8A9ED8F27594069002E8768 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RecipeHelperApp/AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,21 +99,15 @@
 		E829519B2758F6CD00B34A70 /* RecipeHelperApp */ = {
 			isa = PBXGroup;
 			children = (
-				E829519C2758F6CD00B34A70 /* RecipeHelperAppApp.swift */,
-				E829519E2758F6CD00B34A70 /* ContentView.swift */,
-				E82951A02758F6D000B34A70 /* Assets.xcassets */,
-				E82951A52758F6D000B34A70 /* Info.plist */,
-				E82951A22758F6D000B34A70 /* Preview Content */,
+				E8A9ED8F27594069002E8768 /* AppDelegate.swift */,
+				E8A9ED8A27594069002E8768 /* Assets.xcassets */,
+				E8A9ED8D27594069002E8768 /* Base.lproj */,
+				E8A9ED8C27594069002E8768 /* Info.plist */,
+				E8A9ED8E27594069002E8768 /* SceneDelegate.swift */,
+				E8A9ED8B27594069002E8768 /* ViewController.swift */,
+				E8A9ED8927594068002E8768 /* RecipeHelperApp-Bridging-Header.h */,
 			);
 			path = RecipeHelperApp;
-			sourceTree = "<group>";
-		};
-		E82951A22758F6D000B34A70 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E82951A32758F6D000B34A70 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E82951AD2758F6D000B34A70 /* RecipeHelperAppTests */ = {
@@ -197,6 +195,7 @@
 				TargetAttributes = {
 					E82951982758F6CD00B34A70 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					E82951A92758F6D000B34A70 = {
 						CreatedOnToolsVersion = 12.2;
@@ -233,8 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82951A42758F6D000B34A70 /* Preview Assets.xcassets in Resources */,
-				E82951A12758F6D000B34A70 /* Assets.xcassets in Resources */,
+				E8A9ED9227594069002E8768 /* Info.plist in Resources */,
+				E8A9ED9327594069002E8768 /* Base.lproj in Resources */,
+				E8A9ED9027594069002E8768 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E829519F2758F6CD00B34A70 /* ContentView.swift in Sources */,
-				E829519D2758F6CD00B34A70 /* RecipeHelperAppApp.swift in Sources */,
+				E8A9ED9527594069002E8768 /* AppDelegate.swift in Sources */,
+				E8A9ED9127594069002E8768 /* ViewController.swift in Sources */,
+				E8A9ED9427594069002E8768 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeHelperApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -428,6 +430,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.RecipeHelperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecipeHelperApp/RecipeHelperApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeHelperApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -449,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.RecipeHelperApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecipeHelperApp/RecipeHelperApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
